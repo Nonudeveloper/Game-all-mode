@@ -1,0 +1,70 @@
+{
+  "games": [
+    {
+      "id": 0,
+      "name": "Gem Collector",
+      "editableConfig": {
+        "player1Keys": {
+          "left": 37,
+          "right": 39,
+          "up": 38,
+          "down": 40
+        },
+        "player2Keys": {
+          "left": 74,
+          "right": 76,
+          "up": 73,
+          "down": 75
+        }
+      },
+      "gameModes": [
+        {
+          "id": 0,
+          "name": "Player vs Player"
+        },
+        {
+          "id": 1,
+          "name": "Player vs Bot"
+        },
+        {
+          "id": 2,
+          "name": "Bot vs Bot"
+        },
+        {
+          "id": 3,
+          "name": "Bot vs Custom Code"
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "name": "Squad Game",
+      "editableConfig": {
+        "player1Keys":{"left":"s","right":"f","up":"e","down":"d", "action":"w"},
+        "player2Keys":{"left":"j","right":"l","up":"i","down":"k", "action":"p"}
+      },
+      "gameModes": [
+        {
+          "id": 0,
+          "name": "Player vs Bot"
+        },
+        {
+          "id": 1,
+          "name": "Single Player"
+        },
+        {
+          "id": 2,
+          "name": "Single Player Two Windows"
+        },
+        {
+          "id": 3,
+          "name": "Squad"
+        },
+        {
+          "id": 4,
+          "name": "Bot vs Custom Code"
+        }
+      ]
+    }
+  ]
+}
